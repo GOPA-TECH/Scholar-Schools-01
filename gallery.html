@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Gallery</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fc;
+    }
+
+    header {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery-item {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.03);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .caption {
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #003366;
+      color: white;
+      margin-top: 20px;
+    }
+    button {
+      background: #004080;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #0066cc;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>School Gallery</h1>
+    <p>Memories from our classrooms, labs, and past events</p>
+  </header>
+
+  <div class="gallery-container">
+    <!-- 15 Gallery items -->
+    <div class="gallery-item">
+      <img src="images/cultural.jpg" alt="Cultural Day">
+      <div class="caption">Cultural Day Celebration</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/sport.jpg" alt="Sports Day">
+      <div class="caption">Annual Sports Day</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/images.jpg" alt="Excursion">
+      <div class="caption">Students on Excursion</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/24.jpg" alt="Graduation">
+      <div class="caption">Graduation Ceremony</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/debate.jpg" alt="Debate Competition">
+      <div class="caption">Debate & Quiz Competition</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/pclass.jpg" alt="Classroom">
+      <div class="caption">Primary Classroom</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/images3.jpg" alt="Senior Classroom">
+      <div class="caption">Senior Classroom</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/library.jpg" alt="Library">
+      <div class="caption">School Library</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/lab.jpg" alt="Science Lab">
+      <div class="caption">Science Laboratory</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/pic2.png" alt="Computer Lab">
+      <div class="caption">Computer Laboratory</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/biology.jpg" alt="Biology Lab">
+      <div class="caption">Biology Laboratory</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/chemicals.jpg" alt="Chemistry Lab">
+      <div class="caption">Chemistry Laboratory</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/physics.jpg" alt="Physics Lab">
+      <div class="caption">Physics Laboratory</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/music.jpg" alt="Music Day">
+      <div class="caption">Music Day</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/teachers.jpg" alt="Teachers Day">
+      <div class="caption">Teachers’ Day Celebration</div>
+    </div>
+  </div>
+ <button><a href="index.html">Go back</a></button>
+  <footer>
+    <p>&copy; 2025 Your School Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
